@@ -11,11 +11,11 @@ This is a simple terminal-based chat application built using Python's "socket" a
 - **Graceful Exit** : Users can disconnect cleanly using "Ctrl+C" or typing "exit".
 
 ## :link:Run the Server
-   python server.py
+   python server.py.
      **You’ll see:**
-         Server started!
-         IP: 127.0.0.1
-         Port: 12341
+         Server started!.
+         IP: 127.0.0.1.
+         Port: 12341.
          Waiting for clients...
 
 ## Run the Client (in a new terminal)
