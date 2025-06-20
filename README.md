@@ -20,7 +20,7 @@ This is a simple terminal-based chat application built using Python's "socket" a
          Waiting for clients...
 
 ## :link:Run the Client (in a new terminal)
-    python client.py<br>
+    python client.py
      
    **Provide:**<br>
         Server IP → localhost<br>
