@@ -3,12 +3,12 @@ A multithreaded Python chat application using sockets that allows multiple clien
 
 This is a simple terminal-based chat application built using Python's "socket" and "threading" modules. It demonstrates how to build a real-time client-server architecture where multiple users can chat concurrently.
 
-:link:Features
- Multithreaded Server — Handles multiple clients simultaneously using threads.
- Private Messaging — Send messages directly to a specific user using -->"@nickname: "your message".
- Broadcast Messaging — All other messages are sent to every connected user.
- Client-Server Architecture — Classic socket programming in Python.
- Graceful Exit — Users can disconnect cleanly using "Ctrl+C" or typing "exit".
+##Features
+- **Multithreaded Server**: Handles multiple clients simultaneously using threads.
+- **Private Messaging**: Send messages directly to a specific user using -->"@nickname: "your message".
+- **Broadcast Messaging**: All other messages are sent to every connected user.
+- **Client-Server Architecture**: Classic socket programming in Python.
+- **Graceful Exit**: Users can disconnect cleanly using "Ctrl+C" or typing "exit".
 
 :link:Run the Server
    python server.py
