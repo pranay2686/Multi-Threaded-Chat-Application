@@ -11,7 +11,7 @@ This is a simple terminal-based chat application built using Python's "socket" a
 - **Graceful Exit** : Users can disconnect cleanly using "Ctrl+C" or typing "exit".
 
 ## :link:Run the Server
-    python server.py <br>
+    python server.py 
    
  **You’ll see:** <br>
          Server started!<br>
@@ -20,7 +20,7 @@ This is a simple terminal-based chat application built using Python's "socket" a
          Waiting for clients...
 
 ## :link:Run the Client (in a new terminal)
-   python client.py<br>
+    python client.py<br>
      
    **Provide:**<br>
         Server IP → localhost<br>
@@ -30,5 +30,7 @@ This is a simple terminal-based chat application built using Python's "socket" a
 
 ## :link:Private Messaging Format
    Use this format to send a direct message to another user: <br>
-     @nickname: "your message"
+     @nickname: "your message".
+    
+    
 
