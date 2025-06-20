@@ -3,7 +3,7 @@ A multithreaded Python chat application using sockets that allows multiple clien
 
 This is a simple terminal-based chat application built using Python's "socket" and "threading" modules. It demonstrates how to build a real-time client-server architecture where multiple users can chat concurrently.
 
-## Features
+## :link:Features
 - **Multithreaded Server**: Handles multiple clients simultaneously using threads.
 - **Private Messaging**: Send messages directly to a specific user using -->"@nickname: "your message".
 - **Broadcast Messaging**: All other messages are sent to every connected user.
