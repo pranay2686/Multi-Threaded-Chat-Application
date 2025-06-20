@@ -11,22 +11,22 @@ This is a simple terminal-based chat application built using Python's "socket" a
 - **Graceful Exit** : Users can disconnect cleanly using "Ctrl+C" or typing "exit".
 
 ## :link:Run the Server
-   python server.py.
-     **You’ll see:**
-         Server started!.
-         IP: 127.0.0.1.
-         Port: 12341.
+   python server.py <br>
+     **You’ll see:** <br>
+         Server started!<br>
+         IP: 127.0.0.1 <br>
+         Port: 12341 <br>
          Waiting for clients...
 
-## Run the Client (in a new terminal)
-    python client.py
+## :link:Run the Client (in a new terminal)
+   python client.py
       **Provide:**
         Server IP → localhost
         Port → 12341
         Nickname → your chat name
         Repeat for multiple clients in separate terminals to simulate a group chat.
 
-:link:Private Messaging Format
+## Private Messaging Format
    Use this format to send a direct message to another user:
      @nickname: "your message"
 
